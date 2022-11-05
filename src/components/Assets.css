@@ -1,0 +1,67 @@
+.container{
+    position: relative;
+    top: 86px;
+    border: 1px solid #F0F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 461px;
+    height: fit-content;
+}
+.heading{
+    display: flex;
+	justify-content: center;
+	background-color: black;
+    padding: 14px;
+    margin-right: -3px;
+	border-radius: 10px 10px 0px 0px;
+    color: white;
+	margin-top: 0px;
+	text-align: center; 
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#desc{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding:0px 20px 0px 20px;
+}
+.txtArea{
+    border: 1px solid #F0F0F0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-height: 200px;
+    min-width: 415px;
+    margin: 0px 20px 0px 20px;
+    resize: none;
+}
+.txtArea::placeholder{
+    padding: 5px 8px 0px 8px;
+}
+.sbmt{
+    background-color: #0029FF;
+    border-radius: 5px;
+    border: #F0F0F0;
+    color: #F0F0F0;
+    padding: 10px;
+}
+#audio{
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-bottom: 30px;
+    border-style: hidden;
+    width: 450px;
+}
+.caret{
+    height: 15px;
+    float: right;
+    margin: 15px;
+}
+.caret_btn{
+    display: contents;
+}
+.heading + p{
+    display: none;
+}
+.task{
+    display: none;
+    transition: display 0.5s;
+}

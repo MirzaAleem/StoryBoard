@@ -1,0 +1,101 @@
+.container{
+    position: relative;
+    top: 86px;
+    border: 1px solid #F0F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 461px;
+    height: fit-content;
+    margin-top: 70px;
+}
+.navTop{
+    
+  position: absolute;
+  width: 1440px;
+  height: 90px;
+  left: 0px;
+  top: 0px;
+  
+  background: #F0F0F0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .logo{
+      position: absolute;
+  width: 311px;
+  height: 49px;
+  left: 80px;
+  top: 20px;
+  }
+  .home{
+      position: absolute;
+  width: 30px;
+  height: 49.77px;
+  left: 1133px;
+  top: 49.77px;
+  }
+  .setting{
+      position: absolute;
+  width: 30px;
+  height: 49.77px;
+  left: 1186px;
+  top: 49.77px;
+  }
+  .notification{
+      position: absolute;
+  width: 31.15px;
+  height: 49.77px;
+  left: 1239px;
+  top: 50.68px;
+  }
+  .profile{
+      
+  position: absolute;
+  width: 40.36px;
+  height: 40px;
+  left: 1293px;
+  top: 24px;
+  border-radius: 250px;
+  }
+  .challenge{
+      position: absolute;
+  width: 1136px;
+  height: 51px;
+  left: 177px;
+  top: 222px;
+  color: #F0F0F0;
+  background: #0029FF;
+  border-radius: 10px 10px 0px 0px;
+  }
+  .challenge p{
+  position: absolute;
+  width: 445px;
+  height: 28px;
+  left: 19px;
+  font-family: sans-serif;
+  font-weight: bold;
+  }
+  .assetsContainer{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  position: absolute;
+  width: 1136px;
+  height: 2849px;
+  left: 177px;
+  top: 273px;
+  
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .dt{
+    position: absolute;
+    left: 527px;
+  top: 44px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  }
+  
